@@ -180,6 +180,6 @@ Simba is Java based clean code playwright automation framework architected using
 
 ## License
 
-The project is [MIT](./LICENSE2) licensed.
+The project is [MIT](./LICENSE) licensed.
 
 
