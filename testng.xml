@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Salesforce">
+ <listeners>
+ 	<listener class-name="com.force.utility.RetryTests"></listener>
+ </listeners>
+  <test name="Services">
+    <classes>
+      <class name="tests.ui.services.TC01_CreateAccount"/>
+      <class name="tests.ui.services.TC02_EditAccount"/>
+      <class name="tests.ui.services.TC03_CreateLead"/>
+      <class name="tests.ui.services.TC04_EditLead"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
