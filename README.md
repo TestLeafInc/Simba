@@ -159,6 +159,23 @@ Simba is Java based clean code playwright automation framework architected using
   ```
 </ul>
 </details>
+<details><summary>✅  Automated test data generation/selection for your CRUD operations</summary>
+<ul>
+ </br>
+<li>
+    &emsp;Java Faker</b> is used to generate random test data for most of your CREATE requests.
+</li>
+<li>
+    &emsp;You can also use ENUM for the master data obtained using the API requests from server.
+</li>
+<li>
+    &emsp;For all idempotent requests, the framework allows you to read data using API, Excel.
+</li>
+  </br>
+  
+
+</ul>
+</details>
 
 ## Framework - How does it execute tests?
 
